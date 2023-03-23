@@ -19,10 +19,9 @@ function addExpense(e) {
     alert("Lutfen deger giriniz");
     return;
   }
-
+   // elemana div ekleme
   const listItem = document.createElement("div");
 
-  // elemana div ekleme
   listItem.classList.add("list-item");
 
   if (durumInput.checked) {
